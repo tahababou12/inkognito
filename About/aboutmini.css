@@ -1,0 +1,136 @@
+.bolded { 
+  font-weight: bold; 
+}
+
+.big-text-div-2 {
+    position: relative;
+    top: 70%;
+    text-align: center;
+  }
+
+.big-text-2 {
+margin-bottom: 18px;
+font-size: 36px;
+line-height: 48px;
+}
+
+.section-full._3 {
+background-position: 50% 50%;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: scroll;
+}
+
+html.w-mod-js *[data-ix="the-color-of-black-gold"] {
+opacity: 0;
+-webkit-transform: translate(0px, -100px);
+-ms-transform: translate(0px, -100px);
+transform: translate(0px, -100px);
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+#who container {
+margin-top: 100%;
+padding-bottom: 25%;
+} 
+
+.brsmall {
+display: block;
+margin-bottom: 1em;
+}
+
+.brsmaller {
+    display: block;
+    margin-bottom: -0.5em;
+}
+
+.btn2 {
+    text-align:center;
+}
+
+/* scrollbar in About page */
+
+.heading-xsmall {
+  font-family: Syne, sans-serif;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.scroll-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    min-height: 128px;
+    /* background-color: #dde5e9; */
+}
+  
+.scroll-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.scroll-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+/* Upwards arrow in scrollbar */
+.scroll-block-divider {
+  margin-right: 16px;
+  margin-left: 16px;
+  font-family: Syne, sans-serif;
+  color: #902020;
+  font-size: 20px;
+  letter-spacing: -0.04em;
+}
+
+.scroll-item-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+
+  
+.tooltip-wrap {
+    position: relative;
+}
+.tooltip-wrap .tooltip-content {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    /* left: 15%; */
+    right: 50%;
+    background-color: #fff;
+    padding: .5em;
+}
+.tooltip-wrap:hover .tooltip-content {
+    display: block;
+}
