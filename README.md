@@ -1,2 +1,3 @@
-# inkognito
-Portfolio Website
+# Inkognito
+
+Personal Portfolio 1.0
